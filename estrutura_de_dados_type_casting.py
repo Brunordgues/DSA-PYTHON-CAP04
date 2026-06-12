@@ -45,7 +45,6 @@ idade_texto = str(idade)
 print(f"String '{numero_em_texto}' para inteiro: {idade_texto}, tipo: {type(idade_texto)}")
 
 #convertendo entre estrutura de dados
-
 print("\n=== Conversao entre estruturas de dados ===")
 lista_com_duplicatas = [1, 2, 2, 3, 4, 4, 4, 5]
 conjunto_unico = set(lista_com_duplicatas)
