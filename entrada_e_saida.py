@@ -31,4 +31,35 @@ print(f"\nOlá, {nome_usuario}! Bem-vindo(a).")
 print(f"Você tem {idade_do_usuario_int} anos e nasceu aproximadamente em {ano_nascimento}.")
 
 
+<<<<<<< HEAD
 
+=======
+"""
+=== LÓGICA DE ENTRADA/SAÍDA ===
+
+INPUT (entrada):
+- input("mensagem") → SEMPRE retorna STRING
+- Use int(), float() para converter se precisar número
+
+PRINT (saída):
+- print(valor1, valor2) → separa com espaço
+- print(..., sep="X") → muda separador
+- print(..., end="Y") → muda final (padrão é \n quebra linha)
+- print(..., flush=True) → força mostrar imediatamente
+
+F-STRINGS (formatação):
+- f"texto {variavel} texto" → injeta variável
+- f"{var:10}" → largura 10 espaços
+- f"{var:>10}" → alinha direita
+- f"{var:<10}" → alinha esquerda
+- f"{var:^10}" → centraliza
+- f"{num:.2f}" → 2 casas decimais
+- f"{num:,.2f}" → separador milhar + 2 casas
+
+CASOS REAIS:
+- Login: input() + f-string para boas-vindas
+- Formulário: input() + type casting + print() formatado
+- Relatórios: f-string com alinhamento e formatação
+- Confirmações: input() + .upper()/.lower() para validação
+"""
+>>>>>>> 6cb70c671abaa52001addbea09ec631847f48c05
